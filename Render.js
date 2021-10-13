@@ -37,8 +37,6 @@ function populate(data)
     var prepstring = "[" + filterstring + "]"
     var finalstring = JSON.parse(prepstring)
 
-    var name = finalstring[0].userId;
-
     //ID Increment
     arrayid = -1;
     elementid = 1
